@@ -107,27 +107,27 @@ Se você usa firewall (ex: Fortigate), **libere o acesso à internet para o IP d
   - Download do agente no site oficial https://www.zabbix.com/br/download
 
   - Windows
-  - Salve os arquivos em:
-  - C:\Users\Usuario\Documents\agente_zabbix (tente manter um padrão pode salvar em outra pasta também)
+    - Salve os arquivos em:
+    - C:\Users\Usuario\Documents\agente_zabbix (tente manter um padrão pode salvar em outra pasta também)
 
-  - Instalação:
-  - zabbix_agentd.exe -i -c "C:\Users\Usuario\Documents\agente_zabbix\zabbix_agentd.win.conf"
-  - Remoção:
-  - zabbix_agentd.exe -d -c "C:\Users\Usuario\Documents\agente_zabbix\zabbix_agentd.win.conf"
+    - Instalação:
+    - zabbix_agentd.exe -i -c "C:\Users\Usuario\Documents\agente_zabbix\zabbix_agentd.win.conf"
+    - Remoção:
+    - zabbix_agentd.exe -d -c "C:\Users\Usuario\Documents\agente_zabbix\zabbix_agentd.win.conf"
 
-  - Após instalar, inicie o serviço do Zabbix.
+    - Após instalar, inicie o serviço do Zabbix.
 
-Linux
-  - sudo apt update
-  - sudo apt install -y gnupg
-  - wget https://repo.zabbix.com/zabbix-official-repo.gpg
-  - sudo apt-key add zabbix-official-repo.gpg
-  - echo "deb https://repo.zabbix.com/zabbix/7.0/ubuntu stable main" | sudo tee /etc/apt/sources.list.d/zabbix.list
-  - sudo apt update
-  - sudo apt install zabbix-agent -y
-  - sudo nano /etc/zabbix/zabbix_agentd.conf
-  - sudo systemctl restart zabbix-agent
-  - sudo systemctl status zabbix-agent
+  - Linux
+    - sudo apt update
+    - sudo apt install -y gnupg
+    - wget https://repo.zabbix.com/zabbix-official-repo.gpg
+    - sudo apt-key add zabbix-official-repo.gpg
+    - echo "deb https://repo.zabbix.com/zabbix/7.0/ubuntu stable main" | sudo tee /etc/apt/sources.list.d/zabbix.list
+    - sudo apt update
+    - sudo apt install zabbix-agent -y
+    - sudo nano /etc/zabbix/zabbix_agentd.conf
+    - sudo systemctl restart zabbix-agent
+    - sudo systemctl status zabbix-agent
 
 ## 12. 👤 Credenciais de Acesso (Exemplos)
 
@@ -139,7 +139,7 @@ Linux
 
 ## 13. ✅ Conclusão
   - Você terá um ambiente de monitoramento completo com:
-  - 🧩 XCP-ng como hipervisor
+    - 🧩 XCP-ng como hipervisor
       - 🎛️ Xen Orchestra para gerenciamento
       - 🐧 Ubuntu Server como base
           - 📡 Zabbix para monitoramento
