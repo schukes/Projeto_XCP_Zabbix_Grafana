@@ -140,7 +140,7 @@ Linux
 ## 13. ✅ Conclusão
   - Você terá um ambiente de monitoramento completo com:
   - 🧩 XCP-ng como hipervisor
-  - 🎛️ Xen Orchestra para gerenciamento
-  - 🐧 Ubuntu Server como base
-  - 📡 Zabbix para monitoramento
-  - 📊 Grafana para dashboards visuais
+      - 🎛️ Xen Orchestra para gerenciamento
+      - 🐧 Ubuntu Server como base
+          - 📡 Zabbix para monitoramento
+          - 📊 Grafana para dashboards visuais
