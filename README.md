@@ -43,6 +43,7 @@ Se você usa firewall (ex: Fortigate), **libere o acesso à internet para o IP d
 - Baixe o Ubuntu Server 22.04.5:  
   👉 [Ubuntu Server](https://ubuntu.com/download/server)  
 - Crie um **Storage Repository (SR)** para armazenar a ISO.
+    - Em criei um compartilhamento em meu computador e no servidor em storage adicionei como SMB/CIFS
 
 ## 6. 🖥️ Criação da Máquina Virtual Ubuntu
 
