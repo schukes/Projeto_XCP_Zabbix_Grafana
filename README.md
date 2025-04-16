@@ -1,5 +1,13 @@
 # ✅ Projeto: Instalação Completa de um Servidor de Monitoramento com XCP-ng, Xen Orchestra, Zabbix e Grafana
 
+💡Ideia do projeto
+  Sabe aquele computador antigo ou até mesmo um servidor que está parado, sem uso? Em vez de deixá-lo pegando poeira, você pode reaproveitá-lo e transformá-lo em um servidor completo de monitoramento.
+  A ideia é simples e eficiente:
+  Você instala o XCP-ng, um sistema gratuito e poderoso de virtualização, que permite criar e gerenciar várias máquinas virtuais dentro desse equipamento. Em uma dessas máquinas virtuais, você pode instalar o Ubuntu, um sistema operacional leve, estável e bastante        utilizado para servidores.
+  Com o Ubuntu instalado, você pode configurar o Zabbix, uma ferramenta de monitoramento extremamente completa. Ele permite acompanhar em tempo real o desempenho de servidores, computadores, redes, dispositivos e muito mais, emitindo alertas quando algo estiver fora do   normal.
+  Para completar, você utiliza o Grafana, que se conecta ao Zabbix e permite criar painéis gráficos interativos e personalizados. Assim, você consegue visualizar todas as informações importantes de forma clara, bonita e organizada, adaptada exatamente ao que você         precisa acompanhar.
+  Com isso, aquele equipamento antigo se torna uma central de monitoramento moderna e funcional, ideal para ambientes domésticos, pequenos negócios ou até mesmo redes corporativas.
+
 ## 1. 📥 Download e Criação do Boot com XCP-ng
 
 - Acesse o site oficial:  
